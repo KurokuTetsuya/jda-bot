@@ -15,13 +15,7 @@ public class Fun extends ListenerAdapter {
         if (e.getMember().getUser().isBot()) return;
         if (!e.getMessage().getContentRaw().startsWith(prefix)) return;
         String[] args = e.getMessage().getContentRaw().split(" ");
-     /*   if(e.getMessage().getContentRaw().equalsIgnoreCase("g!say")) {
-            EmbedBuilder embed = new EmbedBuilder();
-            embed.setAuthor(e.getAuthor().getAsTag() + " Say :", e.getAuthor().getAvatarUrl());
-            embed.setColor(Color.CYAN);
-            embed.setDescription(args);
-            e.getChannel().sendMessage(embed.build()).queue();
-        }*/
+    
         if (e.getMessage().getContentRaw().equalsIgnoreCase("g!ping")) {
             e.getChannel().sendMessage(":ping_pong: Pong !").queue();
         }
