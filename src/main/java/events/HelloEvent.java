@@ -9,6 +9,6 @@ public class HelloEvent extends ListenerAdapter {
         if (event.getMember().getUser().isBot()) return;
         String msg = event.getMessage().getContentRaw();
         String user = event.getAuthor().getAsTag();
-        System.out.println(user+" In "+ event.getGuild().getName()+"Said : "+ msg);
+     // uselesssss logging wkewkw   System.out.println(user+" In "+ event.getGuild().getName()+"Said : "+ msg);
     }
 }
