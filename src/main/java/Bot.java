@@ -8,7 +8,7 @@ public class Bot {
     public static String prefix = "g!";
         public static void main (String[] args) throws Exception {
      JDA jda;
-      jda = new JDABuilder("token").build();
+      jda = new JDABuilder("your token").build();
       jda.addEventListener(new HelloEvent());
       jda.addEventListener(new Fun());
     }
