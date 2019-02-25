@@ -1,3 +1,3 @@
 # JDABot By GarukPelerTeam
 
-Ignore `target/classes` itu cuman hasil compile mang '_')
+GitHub By : icebear#0001
